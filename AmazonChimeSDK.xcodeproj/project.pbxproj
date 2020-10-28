@@ -134,6 +134,7 @@
 		F8E42DF0247FD86B004C8400 /* ConcurrentDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E42DEF247FD86B004C8400 /* ConcurrentDictionaryTests.swift */; };
 		FA9DF526254862A600523DF6 /* AmazonChimeSDKMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEAFA024293B2700801EA5 /* AmazonChimeSDKMedia.framework */; };
 		FA9DF527254862A700523DF6 /* AmazonChimeSDKMedia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEAFA024293B2700801EA5 /* AmazonChimeSDKMedia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAB3800E2549C5A000A146DE /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB3800D2549C5A000A146DE /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -288,6 +289,7 @@
 		F8C0145D23F1D50E0083D478 /* VideoClientController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoClientController.swift; sourceTree = "<group>"; };
 		F8E42DED247F9464004C8400 /* ConcurrentDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentDictionary.swift; sourceTree = "<group>"; };
 		F8E42DEF247FD86B004C8400 /* ConcurrentDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentDictionaryTests.swift; sourceTree = "<group>"; };
+		FAB3800D2549C5A000A146DE /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/iOSSupport/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +299,7 @@
 			files = (
 				5AE38AC82428728300B234EC /* AVFoundation.framework in Frameworks */,
 				FA9DF526254862A600523DF6 /* AmazonChimeSDKMedia.framework in Frameworks */,
+				FAB3800E2549C5A000A146DE /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +406,7 @@
 		5A1582A023C403120099F8FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAB3800D2549C5A000A146DE /* AVKit.framework */,
 				5ADEAFA024293B2700801EA5 /* AmazonChimeSDKMedia.framework */,
 				5AE1323823EB2C1E00BF5997 /* AVFoundation.framework */,
 			);
