@@ -1228,7 +1228,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = "";
-				MARKETING_VERSION = 0.6.0;
+				MARKETING_VERSION = 0.11.1;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
@@ -1236,7 +1236,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.services.chime.AmazonChimeSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1286,7 +1286,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = "";
-				MARKETING_VERSION = 0.6.0;
+				MARKETING_VERSION = 0.11.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1295,7 +1295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.services.chime.AmazonChimeSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
