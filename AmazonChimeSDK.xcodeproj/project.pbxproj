@@ -33,7 +33,6 @@
 		00C9DC6B23FA393600876B41 /* DefaultVideoTileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9DC6A23FA393600876B41 /* DefaultVideoTileController.swift */; };
 		00D9DBB2241AE23F00146467 /* DefaultVideoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D9DBB1241AE23F00146467 /* DefaultVideoClient.swift */; };
 		00EB5F612400591800007D3E /* VideoTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB5F602400591800007D3E /* VideoTile.swift */; };
-		32F235B3714DA0906335CC12 /* AmazonChimeSDKTests-AmazonChimeSDKMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CEAE89DD08E6E863FC8BE /* AmazonChimeSDKTests-AmazonChimeSDKMocks.generated.swift */; };
 		5A0E7317242EA072006636AB /* MediaDeviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E7316242EA072006636AB /* MediaDeviceTests.swift */; };
 		5A0E7319242EA283006636AB /* MeetingSessionStatusCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E7318242EA283006636AB /* MeetingSessionStatusCodeTests.swift */; };
 		5A0E731B242EA39E006636AB /* VideoTileStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E731A242EA39E006636AB /* VideoTileStateTests.swift */; };
@@ -134,6 +133,8 @@
 		F8E42DF0247FD86B004C8400 /* ConcurrentDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E42DEF247FD86B004C8400 /* ConcurrentDictionaryTests.swift */; };
 		FA9DF526254862A600523DF6 /* AmazonChimeSDKMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEAFA024293B2700801EA5 /* AmazonChimeSDKMedia.framework */; };
 		FA9DF527254862A700523DF6 /* AmazonChimeSDKMedia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADEAFA024293B2700801EA5 /* AmazonChimeSDKMedia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAE21951254AC80A00E5BE1E /* AmazonChimeSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FAE21950254AC80A00E5BE1E /* AmazonChimeSDK.podspec */; };
+		FAE21955254AC81900E5BE1E /* AmazonChimeSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FAE21954254AC81900E5BE1E /* AmazonChimeSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,7 +246,6 @@
 		5AE76F33242049E0009C41FD /* MediaDeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDeviceType.swift; sourceTree = "<group>"; };
 		5AE76F3524204A03009C41FD /* MediaDeviceTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDeviceTypeTests.swift; sourceTree = "<group>"; };
 		5AF7E00D245B6E86006C7C86 /* VersioningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersioningTests.swift; sourceTree = "<group>"; };
-		5E7CEAE89DD08E6E863FC8BE /* AmazonChimeSDKTests-AmazonChimeSDKMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "AmazonChimeSDKTests-AmazonChimeSDKMocks.generated.swift"; path = "MockingbirdMocks/AmazonChimeSDKTests-AmazonChimeSDKMocks.generated.swift"; sourceTree = "<group>"; };
 		6A01CAE423F8FCAF005C5193 /* ClientMetricsCollectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMetricsCollectorTests.swift; sourceTree = "<group>"; };
 		6A68E79E24196773004F5A56 /* VideoPauseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPauseState.swift; sourceTree = "<group>"; };
 		6AB4C79F23F723030038CD4B /* ClientMetricsCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMetricsCollector.swift; sourceTree = "<group>"; };
@@ -289,6 +289,8 @@
 		F8E42DED247F9464004C8400 /* ConcurrentDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentDictionary.swift; sourceTree = "<group>"; };
 		F8E42DEF247FD86B004C8400 /* ConcurrentDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentDictionaryTests.swift; sourceTree = "<group>"; };
 		FAB3800D2549C5A000A146DE /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/iOSSupport/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAE21950254AC80A00E5BE1E /* AmazonChimeSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AmazonChimeSDK.podspec; sourceTree = "<group>"; };
+		FAE21954254AC81900E5BE1E /* AmazonChimeSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AmazonChimeSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -356,6 +358,7 @@
 		5A15821323C4020D0099F8FA = {
 			isa = PBXGroup;
 			children = (
+				FAE21954254AC81900E5BE1E /* AmazonChimeSDK.podspec */,
 				5A15821F23C4020D0099F8FA /* AmazonChimeSDK */,
 				5A15822A23C4020D0099F8FA /* AmazonChimeSDKTests */,
 				5A15821E23C4020D0099F8FA /* Products */,
@@ -724,7 +727,7 @@
 		B2624DE0EEE7B7B1BCEB6407 /* Generated Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				5E7CEAE89DD08E6E863FC8BE /* AmazonChimeSDKTests-AmazonChimeSDKMocks.generated.swift */,
+				FAE21950254AC80A00E5BE1E /* AmazonChimeSDK.podspec */,
 			);
 			name = "Generated Mocks";
 			sourceTree = "<group>";
@@ -854,6 +857,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE21955254AC81900E5BE1E /* AmazonChimeSDK.podspec in Resources */,
+				FAE21951254AC80A00E5BE1E /* AmazonChimeSDK.podspec in Resources */,
 				F86CB7412411B9A6004FD82F /* exported_symbols in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1049,7 +1054,6 @@
 				5A0E731B242EA39E006636AB /* VideoTileStateTests.swift in Sources */,
 				5AE76F2724203AAA009C41FD /* VolumeLevelTests.swift in Sources */,
 				5AE76F2024203A6E009C41FD /* VolumeUpdateTests.swift in Sources */,
-				32F235B3714DA0906335CC12 /* AmazonChimeSDKTests-AmazonChimeSDKMocks.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
